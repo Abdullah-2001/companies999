@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./Styles/Index.css">
+    <link rel="stylesheet" href="./Styles/Accountacy-services.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>services</title>
+</head>
+
+<body>
+
+    <section class="sections-container">
+        <div class="sections">
+            <!-- header section -->
+            <header class="header-section">
+                <nav>
+                    <input type="checkbox" id="check">
+                    <img src="./Assets/svg/logo.svg" class="logo" />
+                    <label for="check" class="checkbtn">
+                        <i class="fa fa-bars"></i>
+                    </label>
+                    <ul class="navbar-links">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="toggleServicesDropDown()">Services <img id="service-dropdown-arrow"
+                                    src="./Assets/svg/service-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <button onclick="toggleLoginDropDown()" class="login-btn">Login <img
+                                src="./Assets/svg/login-arrow.svg" alt=""> </button>
+                        <div id="login-drop-down">
+                            <div>
+                                <a href="https://www.companies999.co.uk/login/">Client Login</a>
+                                <a href="https://companies999.irisopenspace.co.uk/">IRIS Login</a>
+                                <a href="https://companies999.senta.co/a/i/a">Senta Login</a>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+                <div id="services-drop-down">
+                    <div class="drop-down-content">
+                        <div class="formation-services-content">
+                            <p class="service-title">Formation Packages</p>
+                            <div style="width: 81px; height: 3px; background: #41B649; margin-top: 15px;"></div>
+                            <div class="formation-services">
+                                <p>Compare Our Packages</p>
+                                <p>
+                                    <a href="./Essential-package.html">
+                                        Essential Package
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="./Secure-package.html">
+                                        Secure Package
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="./Directors-package.html">
+                                        Directors Package
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="./Leaders-package.html">
+                                        Leaders Package
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="./Non-residential-package.html">
+                                        Non-Residential Package
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="our-services-content">
+                            <p class="service-title">Our Services</p>
+                            <div style="width: 81px; height: 3px; background: #41B649; margin-top: 15px;"></div>
+                            <div class="our-services">
+                                <div>
+                                    <img src="./Assets/svg/accountancy.svg" alt="">
+                                    <p>Company Formation</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/svg/accountancy.svg" alt="">
+                                    <p>Accountancy Services</p>
+                                </div>
+                                <div>
+                                    <img src="./Assets/svg/accountancy.svg" alt="">
+                                    <p>Accountancy Services</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="industries-services-content">
+                            <p class="service-title">Industries We Serve</p>
+                            <div style="width: 81px; height: 3px; background: #41B649; margin-top: 15px;"></div>
+                            <div class="industries-services">
+                                <div>
+                                    <p>Creatives</p>
+                                    <p>View Details</p>
+                                </div>
+                                <div>
+                                    <p>E-Commerce</p>
+                                    <p>View Details</p>
+                                </div>
+                                <div>
+                                    <p>Tradies</p>
+                                    <p>View Details</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-navigate">
+                    <div class="nav-expand-content">
+                        <ul>
+                            <li>
+                                <img src="./Assets/svg/Arrow 1.svg" alt="" onclick="topFunction()" id="myBtn" />
+                                <a href="#company-formation">Company Formation</a>
+                                <a href="#address-services">Address Services</a>
+                                <a href="#accounting-services">Accountancy Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!-- hero section -->
+            <section class="hero-section">
+                <div class="gradient-img">
+                    <div class="hero-container">
+                        <p>Get the most out of our company</p>
+                        <p>Accountancy Services</p>
+                        <p>why getting to know you and your business we aim to become a valuable member of your team.
+                        </p>
+                        <button class="enquire-now">Enquire Now</button>
+                        <button class="see-our-services">See our services</button>
+                    </div>
+                </div>
+                <div class="blue-pyramid">
+                    <img src="./Assets/png/blue-triangle.png" alt="">
+                </div>
+                <div class="green-pyramid">
+                    <img src="./Assets/png/green-triangle.png" alt="">
+                </div>
+            </section>
+            <!-- service-section -->
+            <section class="years-container">
+                <div class="tax-accountancy">
+                    <p>We provide a range of services to support <span style="color: #25AAE1">all aspects of your
+                            business</span></p>
+                    <p>
+                        Whether you already have an established business or it is your first business venture, we can
+                        help you by making sure accounts are prepared in the correct format, statutory books and other
+                        company secretarial records are kept up-to-date and that all statutory returns are prepared.
+                        <br>
+                        <br>
+                        Our experienced team will relieve you of the regulatory burden and leave you more time to
+                        concentrate on your core business activities. Our commitment is to deliver the tools and
+                        resources for you to achieve those objectives, whether it is growing your business, minimising
+                        the tax you pay or a combination of both. We understand every business is different.
+                        <br>
+                        <br>
+                        As part of our service, we provide one hour free consultation to understand about you, your
+                        business and your business objectives. If you have specific questions about your business, we
+                        will be happy to discuss these during the accountancy consultation.
+                        <br>
+                        <br>
+                        We design our services depending on your requirements. Whether it is full outsourced bookkeeping
+                        service, or preparation and submission of year-end financial accounts we develop a professional
+                        plan tailored to your needs. By getting to know you and your business we aim to become a
+                        valuable member of your team.
+                    </p>
+                </div>
+                <div>
+                    <img class="students-img" src="./Assets/png/Mask group.png" width="500" alt="" />
+                    <img class="years-of-service-textImg" src="./Assets/svg/Years of service.svg" alt="" height="250" />
+                </div>
+            </section>
+            <!-- range-of-accountacy-section -->
+            <section class="range-of-accountacy-section">
+                <div class="range-of-accountacy-container">
+                    <p class="title">Our range of accountancy services</p>
+                    <div class="range-card-container">
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">Bookkeeping & VAT</p>
+                            <a href="./Services/Bookkeeping.html" class="see-details">See Details</a>
+                        </div>
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">Year End Accounts</p>
+                            <a href="./Services/Year-end.html" class="see-details">See Details</a>
+                        </div>
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">Self Assessment Tax</p>
+                            <a href="./Services/Self-assessment.html" class="see-details">See Details</a>
+                        </div>
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">VAT Returns</p>
+                            <a href="./Services/VAT.html" class="see-details">See Details</a>
+                        </div>
+                    </div>
+                    <div class="range-card-container">
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">Payroll</p>
+                            <a href="./Services/Payroll.html" class="see-details">See Details</a>
+                        </div>
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">Corporation Tax</p>
+                            <a href="./Services/Corporation-tax.html" class="see-details">See Details</a>
+                        </div>
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">Business Plans</p>
+                            <a href="./Services/Bussiness-plan.html" class="see-details">See Details</a>
+                        </div>
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">SEIS/EIS</p>
+                            <a href="./Services/SEIS.html" class="see-details">See Details</a>
+                        </div>
+                    </div>
+                    <div class="range-card-container">
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">Tax Investigation</p>
+                            <a href="./Services/Tax-investigation.html" class="see-details">See Details</a>
+                        </div>
+                        <div class="range-card">
+                            <img src="./Assets/png/blog-1.png" alt="" />
+                            <p class="range-card-title">Financial Director</p>
+                            <a href="./Services/Financial-director.html" class="see-details">See Details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- tools-section -->
+            <section class="tools-section">
+                <p class="tools-we-use">Tools We Use</p>
+                <div class="brands-container">
+                    <img style="width: 240px; height: 240px; object-fit: cover; margin: 0 -30px;"
+                        src="./Assets/png/sage.png" alt="">
+                    <img style="width: 240px; height: 240px; object-fit: cover; margin: 0 -30px;"
+                        src="./Assets/png/receipt-bank.png" alt="">
+                    <img style="width: 240px; height: 240px; object-fit: cover; margin: 0 -30px;"
+                        src="./Assets/png/sage.png" alt="">
+                    <img style="width: 240px; height: 240px; object-fit: cover; margin: 0 -30px;"
+                        src="./Assets/png/fresh-books.png" alt="">
+                    <img style="width: 240px; height: 240px; object-fit: cover; margin: 0 -30px;"
+                        src="./Assets/png/acca.png" alt="">
+                </div>
+            </section>
+            <!-- slider-section -->
+            <section class="slider-section">
+                <div class="slider-title-container">
+                    <p>See what our customers has to say about our services</p>
+                    <p>
+                        Authorised by Companies House as a formation agent, offering
+                        professional, efficient services at a competitive price with no
+                        hidden costs.
+                    </p>
+                </div>
+                <div class="wrapper">
+                    <div class="center-slider">
+                        <div>
+                            <p class="para">
+                                Highly recommend. Professional, thorough, excellent
+                                communication, timely and answer all of my questions. Thank you
+                                for your professionalism and patience with me!
+                            </p>
+                            <div class="user-container">
+                                <img src="./Assets/svg/slider-user.svg" alt="" />
+                                <p>LOUISE KNIGHT</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="para">
+                                Highly recommend. Professional, thorough, excellent
+                                communication, timely and answer all of my questions. Thank you
+                                for your professionalism and patience with me!
+                            </p>
+                            <div class="user-container">
+                                <img src="./Assets/svg/slider-user.svg" alt="" />
+                                <p>LOUISE KNIGHT</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="para">
+                                Highly recommend. Professional, thorough, excellent
+                                communication, timely and answer all of my questions. Thank you
+                                for your professionalism and patience with me!
+                            </p>
+                            <div class="user-container">
+                                <img src="./Assets/svg/slider-user.svg" alt="" />
+                                <p>LOUISE KNIGHT</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="para">
+                                Highly recommend. Professional, thorough, excellent
+                                communication, timely and answer all of my questions. Thank you
+                                for your professionalism and patience with me!
+                            </p>
+                            <div class="user-container">
+                                <img src="./Assets/svg/slider-user.svg" alt="" />
+                                <p>LOUISE KNIGHT</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="para">
+                                Highly recommend. Professional, thorough, excellent
+                                communication, timely and answer all of my questions. Thank you
+                                for your professionalism and patience with me!
+                            </p>
+                            <div class="user-container">
+                                <img src="./Assets/svg/slider-user.svg" alt="" />
+                                <p>LOUISE KNIGHT</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="para">
+                                Highly recommend. Professional, thorough, excellent
+                                communication, timely and answer all of my questions. Thank you
+                                for your professionalism and patience with me!
+                            </p>
+                            <div class="user-container">
+                                <img src="./Assets/svg/slider-user.svg" alt="" />
+                                <p>LOUISE KNIGHT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- footer section -->
+            <footer class="footer-section">
+                <div class="footer-container">
+                    <div class="footer-content-container">
+                        <div class="company-address-container">
+                            <img src="./Assets/svg/logo.svg" alt="" />
+                            <p style="margin-top: 27px">
+                                Suite 2A, Blackthorn House,
+                                <br />
+                                St Pauls Square,
+                                <br />
+                                Birmingham, B3 1RL
+                                <br />
+                                <br />
+                                Phone: +44 (0) 1212368560
+                                <br />
+                                <br />
+                                Email: contact@companies999.com
+                            </p>
+                        </div>
+                        <div class="our-service-container">
+                            <p class="our-service">OUR SERVICES</p>
+                            <p class="service">Registered Office</p>
+                            <p class="service">Virtual Office</p>
+                            <p class="service">Accountancy Service</p>
+                            <p class="service">VAT Registration</p>
+                            <p class="service">Payroll & Pensions</p>
+                            <p class="service">Business Consultancy</p>
+                        </div>
+                        <div class="quick-links-container">
+                            <p class="quick-links">QUICK LINKS</p>
+                            <p class="links">Registered Office</p>
+                            <p class="links">Virtual Office</p>
+                            <p class="links">Accountancy Service</p>
+                            <p class="links">VAT Registration</p>
+                            <p class="links">Payroll & Pensions</p>
+                            <p class="links">Business Consultancy</p>
+                        </div>
+                        <div class="social-icons-container">
+                            <p class="we-are-social">We are Social</p>
+                            <img src="./Assets/svg/Facebook.svg" alt="" />
+                            <img src="./Assets/svg/Twitter.svg" alt="" />
+                            <img src="./Assets/svg/Linkedin.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="copyright-container">
+                        <p>All rights reserved @ Companies999 2022</p>
+                        <p>Designed with Love @ Kingsmen Design.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./slick-1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".center-slider").slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+            arrows: true,
+            dots: false,
+            mobileFirst: true,
+            prevArrow:
+                "<img class='slick-prev' src='./Assets/svg/prev-arrow.svg' />",
+            nextArrow:
+                "<img class='slick-next' src='./Assets/svg/next-arrow.svg' />",
+        });
+    });
+</script>
+<script src="./Js/app.js"></script>
+
+</html>

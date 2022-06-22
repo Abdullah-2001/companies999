@@ -1,0 +1,552 @@
+/* hero section */
+
+.hero-section {
+background-image: url("../Assets/png/Services-bg.png");    background-size: cover;
+    background-repeat: no-repeat;
+    height: 570px;
+}
+
+.sections {
+    background: linear-gradient(25.69deg, rgba(118, 198, 232, 0.3) -56.23%, rgba(255, 255, 255, 0.3) 102.69%);
+}
+
+.gradient-img {
+    width: 1717px;
+    height: 570px;
+    background: linear-gradient(89.4deg, #ffffff 28.67%, rgba(255, 255, 255, 0.857571) 44%, rgba(255, 255, 255, 0) 75.74%);
+}
+
+.blue-pyramid {
+    position: absolute;
+    right: 0;
+    top: 560px;
+}
+
+.green-pyramid {
+    position: absolute;
+    right: 0;
+    top: 607px;
+}
+
+.hero-container {
+    padding: 88px 697px 157px 100px;
+    margin-top: 116px
+}
+
+.hero-container :nth-child(1) {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+}
+
+.hero-container :nth-child(2) {
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(98.01deg, #33bbf5 4.33%, #24eb31 101.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-container :nth-child(3) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.hero-container :nth-child(4) {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #151515;
+}
+
+.hero-container :nth-child(5) {
+    font-weight: 900;
+    font-size: 40px;
+    background: linear-gradient(98.01deg, #25AAE1 2.33%, #41B649 101.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.buy-now, .go-to-faq {
+    width: 343px;
+    height: 43px;
+    background: #41B649;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.buy-now {
+    background: #41B649;
+}
+
+.go-to-faq {
+    background: #25AAE1;
+    margin-left: 10px;
+}
+
+.go-to-faq a {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:991px) {
+    .hero-container {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        margin-top: 106px;
+    }
+
+    .hero-container :nth-child(3) {
+        width: initial;
+    }
+
+    .gradient-img {
+        width: 100%;
+        height: 670px;
+    }
+
+    .hero-section {
+        height: 670px;
+    }
+
+    .blue-pyramid {
+        top: 650px;
+    }
+
+    .green-pyramid {
+        top: 698px;
+    }
+
+    .hero-container :nth-child(2) {
+        font-size: 30px;
+    }
+
+    .go-to-faq {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+}
+
+/* jewellery-section */
+
+.jewellery-quarter-section {
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+    margin-top: 80px;
+}
+
+.registered-cards, .step-card-container {
+    margin: 0 50px 0 50px;
+}
+
+.jewellery-quarter-container {
+    margin-bottom: 54px;
+}
+
+.birmingham-jewellery {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 26px;
+    background: linear-gradient(90.31deg, #25AAE1 56.65%, #41B649 101.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.registered-office {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7,
+.card-8 {
+    margin: 20px 0;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9 {
+    min-width: 636px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 96px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 30px 36px 24px 35px;
+}
+
+.card-content p {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.card-content ul li {
+    list-style-type: disc;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151515;
+    margin-top: 30px;
+}
+
+.step-card-container {
+    position: relative;
+}
+
+.dots {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    width: 10px;
+    height: 500px;
+}
+
+.step-card {
+    min-width: 566px;
+    max-width: auto;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 96px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 34px;
+}
+
+.step-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 54px;
+}
+
+.steps {
+    display: flex;
+    align-items: center;
+    margin: 34px 0;
+}
+
+.round-circle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    z-index: 1000;
+}
+
+.step {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151515;
+    margin-left: 23px;
+}
+
+.go-to-faq-container {
+    display: flex;
+    align-items: center;
+}
+
+.go-to-faq-container :nth-child(2) {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+    margin: 0 0 0 15px;
+}
+
+.go-to-faq-btn {
+    margin-top: 35px;
+    min-width: 100%;
+    height: 43px;
+    background: #41B649;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media only screen and (max-width:991px) {
+    .jewellery-quarter-section {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .birmingham-jewellery,
+    .registered-office {
+        text-align: center;
+    }
+
+    .step-title {
+        text-align: center;
+        margin-top: 54px;
+        font-size: 25px;
+    }
+
+    .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9 {
+        min-width: initial;
+        max-width: initial;
+    }
+
+    .step-card {
+        min-width: initial;
+        max-width: initial;
+    }
+
+    .card-content p {
+        font-size: 18px;
+    }
+
+    .jewellery-quarter-container {
+        margin: 54px 0;
+    }
+}
+
+/* package-provider-section */
+
+.package-provider {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin: 135px 0 60px 0;
+}
+
+.provider-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.package-1,
+.package-2,
+.package-3 {
+    width: 327px;
+    min-height: 253px;
+    max-height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 96px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 38px 38px 51px 38px;
+}
+
+.package-1 :nth-child(1),
+.package-2 :nth-child(1),
+.package-3 :nth-child(1) {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+}
+
+.package-1 :nth-child(2),
+.package-2 :nth-child(2),
+.package-3 :nth-child(2) {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    background: linear-gradient(98.01deg, #25AAE1 13.33%, #41B649 101.09%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.package-1 :nth-child(3),
+.package-2 :nth-child(3),
+.package-3 :nth-child(3) {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #151515;
+}
+
+.package-2 {
+    margin: 0 32px;
+}
+
+@media only screen and (max-width:991px) {
+    .provider-card-container {
+        overflow: auto;
+        justify-content: initial;
+    }
+
+    .package-1,
+    .package-2,
+    .package-3 {
+        padding-bottom: 0;
+    }
+
+    .package-provider {
+        font-size: 25px;
+        margin: 54px 0;
+    }
+}
+
+/* faq-section */
+
+.faq {
+    margin: 84px 0 46px 0;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.accordion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 128px;
+}
+
+#see-more {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-top: 80px;
+}
+
+.accordion, .accordion-expand {
+    width: 1109px;
+    min-height: 109px;
+    max-height: auto;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 96px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.accordion-expand {
+    display: none;
+}
+
+.accordion-expand-all {
+    display: block;
+}
+
+.see {
+    display: none;
+}
+
+.accordion-content {
+    padding: 29px 35px;
+}
+
+.accordion-content .question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.question-container :nth-child(1) {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #151515;
+}
+
+.card-expand-content-1 {
+    display: block;
+}
+
+#chevron-up-1 {
+    transform: rotate(180deg);
+}
+
+.toggle-chevron-1 {
+    transform: rotate(0deg) !important;
+}
+
+.expand-card-1 {
+    display: none;
+}
+
+.expand-content-1,
+.expand-content-2,
+.expand-content-3,
+.expand-content-4,
+.expand-content-5,
+.expand-content-6,
+.expand-content-7,
+.expand-content-8,
+.expand-content-9,
+.expand-content-10,
+.card-expand-content-2,
+.card-expand-content-3,
+.card-expand-content-4,
+.card-expand-content-5,
+.card-expand-content-6,
+.card-expand-content-7,
+.card-expand-content-8,
+.card-expand-content-9 {
+    display: none;
+}
+
+.expand,
+.expand-card {
+    display: block;
+}
+
+.toggle-chevron {
+    transform: rotate(180deg);
+}
+
+.toggle-accordion-arrow {
+    transform: rotate(45deg) !important;
+}
+
+@media only screen and (max-width:991px) {
+    .faq {
+        margin: 54px 0;
+        font-size: 25px;
+    }
+
+    .accordion-container,
+    .accordion {
+        margin-top: 0;
+    }
+}

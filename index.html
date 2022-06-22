@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="./Styles/Index.css" />
+  <link rel="stylesheet" href="./Styles/Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Companies999</title>
+</head>
+
+<body>
+
+  <section class="sections-container">
+
+    <!-- header section -->
+    <header class="header-section">
+      <nav>
+        <input type="checkbox" id="check">
+        <img src="./Assets/svg/logo.svg" class="logo" />
+        <label for="check" class="checkbtn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <ul class="navbar-links">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#" onclick="toggleServicesDropDown()">Services <img id="service-dropdown-arrow"
+                src="./Assets/svg/service-arrow.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <button onclick="toggleLoginDropDown()" class="login-btn">Login <img src="./Assets/svg/login-arrow.svg"
+              alt=""> </button>
+          <div id="login-drop-down">
+            <div>
+              <a href="https://www.companies999.co.uk/login/">Client Login</a>
+              <a href="https://companies999.irisopenspace.co.uk/">IRIS Login</a>
+              <a href="https://companies999.senta.co/a/i/a">Senta Login</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+      <div id="services-drop-down">
+        <div class="drop-down-content">
+          <div class="formation-services-content">
+            <p class="service-title">Formation Packages</p>
+            <div style="width: 81px; height: 3px; background: #41B649; margin-top: 15px;"></div>
+            <div class="formation-services">
+              <p>Compare Our Packages</p>
+              <p>
+                <a href="./Essential-package.html">
+                  Essential Package
+                </a>
+              </p>
+              <p>
+                <a href="./Secure-package.html">
+                  Secure Package
+                </a>
+              </p>
+              <p>
+                <a href="./Directors-package.html">
+                  Directors Package
+                </a>
+              </p>
+              <p>
+                <a href="./Leaders-package.html">
+                  Leaders Package
+                </a>
+              </p>
+              <p>
+                <a href="./Non-residential-package.html">
+                  Non-Residential Package
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="our-services-content">
+            <p class="service-title">Our Services</p>
+            <div style="width: 81px; height: 3px; background: #41B649; margin-top: 15px;"></div>
+            <div class="our-services">
+              <div>
+                <img src="./Assets/svg/accountancy.svg" alt="">
+                <p>Company Formation</p>
+              </div>
+              <div>
+                <img src="./Assets/svg/accountancy.svg" alt="">
+                <p>Accountancy Services</p>
+              </div>
+              <div>
+                <img src="./Assets/svg/accountancy.svg" alt="">
+                <p>Accountancy Services</p>
+              </div>
+            </div>
+          </div>
+          <div class="industries-services-content">
+            <p class="service-title">Industries We Serve</p>
+            <div style="width: 81px; height: 3px; background: #41B649; margin-top: 15px;"></div>
+            <div class="industries-services">
+              <div>
+                <p>Creatives</p>
+                <p>View Details</p>
+              </div>
+              <div>
+                <p>E-Commerce</p>
+                <p>View Details</p>
+              </div>
+              <div>
+                <p>Tradies</p>
+                <p>View Details</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-navigate">
+        <div class="nav-expand-content">
+          <ul>
+            <li>
+              <img src="./Assets/svg/Arrow 1.svg" alt="" onclick="topFunction()" id="myBtn" />
+              <a href="#company-formation">Company Formation</a>
+              <a href="#address-services">Address Services</a>
+              <a href="#accounting-services">Accountancy Services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero-section">
+      <div class="hero-gradient-container">
+        <div class="hero-container">
+          <p class="tagline">A complete solution for your business.</p>
+          <p class="company-formation">Company Formation,
+            <span style="color: #25aae1">Accounting</span> and Address
+            Services.
+          </p>
+          <img src="./Assets/svg/Arrow 2.svg" alt="" srcset="" />
+          <a class="scroll-down-link" href="#">Scroll down for details.</a>
+        </div>
+        <div class="address-account-cards-container">
+          <div class="cards">
+            <div style="height: 13px"></div>
+            <img src="./Assets/svg/formation.svg" alt="" />
+            <p>Company Formation</p>
+            <span style="width: 82px; height: 0px; border: 2px solid #41b649"></span>
+            <p>
+              Here at Companies999, our highly-qualified team of industry
+              professionals.
+            </p>
+            <a href="#">View Details</a>
+          </div>
+          <div class="cards" style="margin: 0 37px">
+            <div class="green-border-line"></div>
+            <img src="./Assets/svg/accountancy.svg" alt="" />
+            <p>Accountancy Services</p>
+            <span style="width: 82px;height: 0px;border: 2px solid rgba(37, 170, 225, 1)"></span>
+            <p>
+              Here at Companies999, our highly-qualified team of industry
+              professionals.
+            </p>
+            <a href="#">View Details</a>
+          </div>
+          <div class="cards">
+            <div style="height: 13px"></div>
+            <img src="./Assets/svg/address.svg" alt="" />
+            <p>Address Services</p>
+            <span style="width: 82px;height: 0px;border: 2px solid rgba(37, 170, 225, 1)"></span>
+            <p>
+              Here at Companies999, our highly-qualified team of industry
+              professionals.
+            </p>
+            <a href="#">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- search section -->
+    <section class="search-section" id="company-formation">
+      <div class="search-container">
+        <p class="get-started">
+          Form your company with us and
+          <span
+            style="background: linear-gradient(90.31deg,#25aae1 56.65%,#41b649 101.58%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text">get
+            started on your journey</span>
+        </p>
+        <div class="search-bar">
+          <input type="text" placeholder="Check your company name availability" id="search-field"/>
+          <button id="search-btn">Search</button>
+        </div>
+        <div class="testimonial-container">
+          <div class="testimonial">
+            <p>490+</p>
+            <p>Testimonial Businesses</p>
+          </div>
+          <div class="helping">
+            <p>10+</p>
+            <p>Years of Helping businesses</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section -->
+    <section class="pricing-section">
+      <div class="pricing-container">
+        <p class="section-title-1">Our Company Formation Pricing</p>
+        <div class="price-card-container">
+          <div class="package-card">
+            <p class="name">Essential Package</p>
+            <p class="price">£16 <span class="currency">+VAT</span></p>
+            <p class="description">
+              The Secure Package contains everything the Essential package
+              brings but with an extra special feature.
+            </p>
+            <button class="view-more-blue">View More Details</button>
+          </div>
+          <div class="package-card" id="secure-package">
+            <p class="name">Secure Package</p>
+            <p class="price">£45 <span class="currency">+VAT</span></p>
+            <p class="description">
+              The Secure Package contains everything the Essential package
+              brings but with an extra special feature.
+            </p>
+            <button class="view-more-green">View More Details</button>
+          </div>
+          <div class="package-card" id="directors-package">
+            <p class="name">Directors Package</p>
+            <p class="price">£70 <span class="currency">+VAT</span></p>
+            <p class="description">
+              The Secure Package contains everything the Essential package
+              brings but with an extra special feature.
+            </p>
+            <button class="view-more-blue">View More Details</button>
+          </div>
+          <div class="package-card">
+            <p class="name">Leaders Package</p>
+            <p class="price">£10 <span class="currency">+VAT</span></p>
+            <p class="description">
+              The Secure Package contains everything the Essential package
+              brings but with an extra special feature.
+            </p>
+            <button class="view-more-green">View More Details</button>
+          </div>
+        </div>
+        <div class="compare-package-container">
+          <button>For Non Resident</button>
+          <button>Compare our Packages Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- address service section -->
+    <section class="years-section" id="address-services">
+      <p class="section-title-2">Our Address Services</p>
+      <div class="service-cards-container">
+        <div class="service-card-1">
+          <img src="./Assets/png/registered-office.jpg" alt="" />
+          <div class="service-card-details card-dtl-1">
+            <p style="width: 216px;">Registered Office</p>
+            <p>We will agree a routine with you, generally on a monthly cycle.</p>
+            <p>View Details</p>
+          </div>
+        </div>
+        <div class="service-card-2" style="margin: 0 22.93px 0 22.93px;">
+          <img src="./Assets/png/service-address.jpg" alt="" />
+          <div class="service-card-details card-dtl-2">
+            <p>Service Address</p>
+            <p>We will agree a routine with you, generally on a monthly cycle.</p>
+            <p>View Details</p>
+          </div>
+        </div>
+        <div class="service-card-3">
+          <img src="./Assets/png/virtual-office.jpg" alt="" />
+          <div class="service-card-details card-dtl-3">
+            <p>Virtual Office</p>
+            <p>We will agree a routine with you, generally on a monthly cycle.</p>
+            <p>View Details</p>
+          </div>
+        </div>
+      </div>
+      <div class="years-container">
+        <div class="tax-accountancy">
+          <p>
+            Helping businesses with tax and
+            <span style="color: #41b649">accountancy</span>
+          </p>
+          <p>
+            Whether you need help starting a company, help with tax planning
+            or require financial advice to grow, we are able to provide a
+            comprehensive, fully-personalized service to help you save stress.
+            <br />
+            <br />
+            Here at Companies999, our highly-qualified team of industry
+            professionals and chartered accountants are committed to providing
+            you and your business with an effective platform.
+            <br />
+            <br />
+            Finally, our Managing Director is a qualified ACCA accountant with
+            over a decade of practical experience helping numerous businesses
+            with their accounting and tax requirements. Unlike most of the
+            formation agents, we have the additional knowledge and experience
+            dealing with Companies House directly.
+          </p>
+        </div>
+        <div>
+          <img class="students-img" src="./Assets/png/Mask group.png" width="500" alt="" />
+          <img class="years-of-service-textImg" src="./Assets/svg/Years of service.svg" alt="" height="250" />
+        </div>
+      </div>
+      <div class="service-cards-container">
+        <div class="service-card-1">
+          <img src="./Assets/png/book-keeping-color.png" alt="" />
+          <div class="service-card-details card-dtl-1">
+            <p>Book Keeping</p>
+            <p>We will agree a routine with you, generally on a monthly cycle.</p>
+            <p>View Details</p>
+          </div>
+        </div>
+        <div class="service-card-2" style="margin: 0 22.93px 0 22.93px">
+          <img src="./Assets/png/Working-Women.jpg" alt="" />
+          <div class="service-card-details card-dtl-2">
+            <p>Payroll Management</p>
+            <p>We will agree a routine with you, generally on a monthly cycle.</p>
+            <p>View Details</p>
+          </div>
+        </div>
+        <div class="service-card-3" style="margin: 0 22.93px 0 0">
+          <img src="./Assets/png/financial-account-color.png" alt="" />
+          <div class="service-card-details card-dtl-3">
+            <p>Financial Accounting</p>
+            <p>We will agree a routine with you, generally on a monthly cycle.</p>
+            <p>View Details</p>
+          </div>
+        </div>
+        <div class="service-card-4">
+          <img src="./Assets/png/self-assesment-color.png" alt="" />
+          <div class="service-card-details card-dtl-4">
+            <p>Self Assesment</p>
+            <p>We will agree a routine with you, generally on a monthly cycle.</p>
+            <p>View Details</p>
+          </div>
+        </div>
+      </div>
+      <div class="accounting-service-container" id="accounting-services">
+        <button class="accounting-service-btn">
+          View all accounting services
+        </button>
+      </div>
+      <div class="brands-service-container">
+        <div class="tools-we-use">
+          <p>Tools We Use</p>
+          <img class="tool-line-img" src="./Assets/svg/line.svg" alt="" />
+        </div>
+        <div class="brands-services" style="display: flex;">
+          <img src="./Assets/svg/brand-5.svg" alt="" />
+          <img src="./Assets/svg/brand-4.svg" alt="" />
+          <img src="./Assets/svg/brand-2.svg" alt="" />
+          <img src="./Assets/svg/brand-1.svg" alt="" />
+          <img src="./Assets/svg/brand-3.svg" alt="" />
+        </div>
+    </section>
+
+    <!-- industries section -->
+    <section class="industries-section">
+      <p class="section-title-3">Industries we serve</p>
+      <div class="industries-container">
+        <div class="industries-card-container">
+          <div class="trad-card creatives-card">
+            <img src="./Assets/png/creatives.png" alt="" />
+            <div class="industries-card-details card-one">
+              <div class="trad-content">
+                <p>Creatives</p>
+                <p>
+                  You know words, patterns, notes, design. Thank goodness for
+                  you, we know numbers. We’ll take the financial reins and
+                  give you back your creative freedom.
+                </p>
+                <p>Get Started</p>
+              </div>
+              <p class="title">Creatives</p>
+            </div>
+          </div>
+          <div class="trad-card e-commerce-card">
+            <img src="./Assets/png/e-commerce.png" alt="" />
+            <div class="industries-card-details card-two">
+              <div class="trad-content">
+                <p>Ecommerce</p>
+                <p>
+                  You know words, patterns, notes, design. Thank goodness for
+                  you, we know numbers. We’ll take the financial reins and
+                  give you back your creative freedom.
+                </p>
+                <p>Get Started</p>
+              </div>
+              <p class="title">Ecommerce</p>
+            </div>
+          </div>
+          <div class="trad-card tradies-card">
+            <img src="./Assets/png/tradies.png" alt="" />
+            <div class="industries-card-details card-three">
+              <div class="trad-content">
+                <p>Tradies</p>
+                <p>
+                  You know words, patterns, notes, design. Thank goodness for
+                  you, we know numbers. We’ll take the financial reins and
+                  give you back your creative freedom.
+                </p>
+                <p>Get Started</p>
+              </div>
+              <p class="title">Tradies</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why choose us sextion -->
+    <!-- <section class="why-choose-section">
+      <div class="why-choose-container">
+        <p class="section-title-4">Why choose us?</p>
+        <div class="choose-card-container-1" style="margin-bottom: 22.6px">
+          <div class="choose-card">
+            <div class="green-border"></div>
+            <div class="choose-card-content">
+              <p>Brimingham’s No.1</p>
+              <div></div>
+              <p>
+                Prestigious Jewellery Quarter Registered Office and Service
+                address available, enabling you to boost your company's image.
+              </p>
+            </div>
+          </div>
+          <div class="choose-card" style="margin: 0 30px 0 30px">
+            <div class="blue-border"></div>
+            <div class="choose-card-content">
+              <p>Cost Effective</p>
+              <div></div>
+              <p>
+                Prestigious Jewellery Quarter Registered Office and Service
+                address available, enabling you to boost your company's image.
+              </p>
+            </div>
+          </div>
+          <div class="choose-card">
+            <div class="green-border"></div>
+            <div class="choose-card-content">
+              <p>Rapid Process</p>
+              <div></div>
+              <p>
+                Prestigious Jewellery Quarter Registered Office and Service
+                address available, enabling you to boost your company's image.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="choose-card-container-2">
+          <div class="choose-card">
+            <div class="blue-border"></div>
+            <div class="choose-card-content">
+              <p>Company Manager</p>
+              <div></div>
+              <p>
+                Prestigious Jewellery Quarter Registered Office and Service
+                address available, enabling you to boost your company's image.
+              </p>
+            </div>
+          </div>
+          <div class="choose-card" style="margin: 0 30px 0 30px">
+            <div class="green-border"></div>
+            <div class="choose-card-content">
+              <p>Secure Website</p>
+              <div></div>
+              <p>
+                Prestigious Jewellery Quarter Registered Office and Service
+                address available, enabling you to boost your company's image.
+              </p>
+            </div>
+          </div>
+          <div class="choose-card">
+            <div class="blue-border"></div>
+            <div class="choose-card-content">
+              <p>All Your Business Needs</p>
+              <div></div>
+              <p>
+                Prestigious Jewellery Quarter Registered Office and Service
+                address available, enabling you to boost your company's image.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- slider section -->
+    <section class="slider-section">
+      <div class="section-title-5-container">
+        <p class="section-title-5">See what our customers has to say about our services</p>
+        <p class="authorised-companies">
+          Authorised by Companies House as a formation agent, offering
+          professional, efficient services at a competitive price with no
+          hidden costs.
+        </p>
+      </div>
+      <div class="wrapper">
+        <div class="center-slider">
+          <div>
+            <p class="para">
+              Highly recommend. Professional, thorough, excellent
+              communication, timely and answer all of my questions. Thank you
+              for your professionalism and patience with me!
+            </p>
+            <div class="user-container">
+              <img src="./Assets/svg/slider-user.svg" alt="" />
+              <p>LOUISE KNIGHT</p>
+            </div>
+          </div>
+          <div>
+            <p class="para">
+              Highly recommend. Professional, thorough, excellent
+              communication, timely and answer all of my questions. Thank you
+              for your professionalism and patience with me!
+            </p>
+            <div class="user-container">
+              <img src="./Assets/svg/slider-user.svg" alt="" />
+              <p>LOUISE KNIGHT</p>
+            </div>
+          </div>
+          <div>
+            <p class="para">
+              Highly recommend. Professional, thorough, excellent
+              communication, timely and answer all of my questions. Thank you
+              for your professionalism and patience with me!
+            </p>
+            <div class="user-container">
+              <img src="./Assets/svg/slider-user.svg" alt="" />
+              <p>LOUISE KNIGHT</p>
+            </div>
+          </div>
+          <div>
+            <p class="para">
+              Highly recommend. Professional, thorough, excellent
+              communication, timely and answer all of my questions. Thank you
+              for your professionalism and patience with me!
+            </p>
+            <div class="user-container">
+              <img src="./Assets/svg/slider-user.svg" alt="" />
+              <p>LOUISE KNIGHT</p>
+            </div>
+          </div>
+          <div>
+            <p class="para">
+              Highly recommend. Professional, thorough, excellent
+              communication, timely and answer all of my questions. Thank you
+              for your professionalism and patience with me!
+            </p>
+            <div class="user-container">
+              <img src="./Assets/svg/slider-user.svg" alt="" />
+              <p>LOUISE KNIGHT</p>
+            </div>
+          </div>
+          <div>
+            <p class="para">
+              Highly recommend. Professional, thorough, excellent
+              communication, timely and answer all of my questions. Thank you
+              for your professionalism and patience with me!
+            </p>
+            <div class="user-container">
+              <img src="./Assets/svg/slider-user.svg" alt="" />
+              <p>LOUISE KNIGHT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog post section -->
+    <section class="blog-post-section">
+      <p class="section-title-6">Blog Posts</p>
+      <div class="blog-post-container">
+        <div class="post-card-container">
+          <div class="post-card">
+            <img src="./Assets/png/blog-1.png" alt="" />
+            <div class="post-card-details">
+              <p>How to find UTR Number</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Adipiscing sed semper consequat adipiscing urna mi malesuada
+                mi. Eget sed vitae suscipit proin nulla lacus, a turpis in.
+              </p>
+            </div>
+          </div>
+          <div class="post-card" style="margin: 0 40px">
+            <img src="./Assets/png/blog-2.png" alt="" />
+            <div class="post-card-details">
+              <p>VAT Advice</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Adipiscing sed semper consequat adipiscing urna mi malesuada
+                mi. Eget sed vitae suscipit proin nulla lacus, a turpis in.
+              </p>
+            </div>
+          </div>
+          <div class="post-card">
+            <img src="./Assets/png/blog-3.png" alt="" />
+            <div class="post-card-details">
+              <p>How to Pay</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Adipiscing sed semper consequat adipiscing urna mi malesuada
+                mi. Eget sed vitae suscipit proin nulla lacus, a turpis in.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- get in touch section -->
+    <section class="get-in-touch-section">
+      <div class="get-in-touch-container">
+        <div class="get-in-touch-card">
+          <p class="get-in-touch">Get in touch with us Today!</p>
+          <div>
+            <input class="input" placeholder="Full Name" type="text" />
+            <input class="input" placeholder="Email Address" type="text" />
+          </div>
+          <div>
+            <textarea class="text-area-input" placeholder="Let us know how we can help?" type="text"
+              style="width: 85%"></textarea>
+            <div class="btn-container">
+              <button>Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-content-container">
+          <div class="company-address-container">
+            <img src="./Assets/svg/logo.svg" alt="" />
+            <p style="margin-top: 27px">
+              Suite 2A, Blackthorn House,
+              <br />
+              St Pauls Square,
+              <br />
+              Birmingham, B3 1RL
+              <br />
+              <br />
+              Phone: +44 (0) 1212368560
+              <br />
+              <br />
+              Email: contact@companies999.com
+            </p>
+          </div>
+          <div class="our-service-container">
+            <p class="our-service">OUR SERVICES</p>
+            <p class="service">Registered Office</p>
+            <p class="service">Virtual Office</p>
+            <p class="service">Accountancy Service</p>
+            <p class="service">VAT Registration</p>
+            <p class="service">Payroll & Pensions</p>
+            <p class="service">Business Consultancy</p>
+          </div>
+          <div class="quick-links-container">
+            <p class="quick-links">QUICK LINKS</p>
+            <p class="links">Registered Office</p>
+            <p class="links">Virtual Office</p>
+            <p class="links">Accountancy Service</p>
+            <p class="links">VAT Registration</p>
+            <p class="links">Payroll & Pensions</p>
+            <p class="links">Business Consultancy</p>
+          </div>
+          <div class="social-icons-container">
+            <p class="we-are-social">We are Social</p>
+            <img src="./Assets/svg/Facebook.svg" alt="" />
+            <img src="./Assets/svg/Twitter.svg" alt="" />
+            <img src="./Assets/svg/Linkedin.svg" alt="" />
+          </div>
+        </div>
+        <div class="copyright-container">
+          <p>All rights reserved @ Companies999 2022</p>
+          <p>Designed with Love @ Kingsmen Design.</p>
+        </div>
+      </div>
+    </footer>
+
+  </section>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./slick-1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".center-slider").slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      centerMode: true,
+      arrows: true,
+      dots: false,
+      mobileFirst: true,
+      prevArrow:
+        "<img class='slick-prev' src='./Assets/svg/prev-arrow.svg' />",
+      nextArrow:
+        "<img class='slick-next' src='./Assets/svg/next-arrow.svg' />",
+    });
+  });
+  $('#search-field').on('keypress', function (e) {
+    if (e.which === 13) {
+      $.ajax({
+        type: 'POST',
+        url: 'check.php',
+        data: { name: $('input[name=name]').val() },
+        success: function (response) {
+          var response = jQuery.parseJSON(response);
+          console.log(response);
+          if (response.NameStatus == 'GREEN') {
+            $("#NameRequested").empty();
+            $("#NameRequested").append(response.NameRequested);
+            $("#unavailable").hide();
+            $("#unavailable2").hide();
+            $("#unavailable3").hide();
+            $("#available").show();
+            $("#upper").hide();
+            $("#continueBtn").show();
+            $("#searchBtn").hide();
+          }
+          if (response.NameStatus == 'AMBER') {
+            $("#MatchName").empty();
+            $("#NameRequested1").empty();
+            $("#NameRequested1").append(response.NameRequested);
+            if (response.MatchName == null) {
+              $("#MatchName").append('This company name is available for registration! However, please note, you will need to provide supporting evidence to use ');
+              $("#MatchName").append(response.SensitiveWords[0].Word);
+              $("#MatchName").append(' in the company name.');
+            } else {
+              $("#MatchName").append('This company name is available for registration! However, please note, you will need to obtain permission from ');
+              $("#MatchName").append(response.MatchName);
+              $("#MatchName").append(' in order to use it.');
+            }
+            $("#unavailable").hide();
+            $("#unavailable3").hide();
+            $("#unavailable2").show();
+            $("#available").hide();
+            $("#upper").hide();
+          } if (response.NameStatus == 'RED') {
+            $("#NameRequested2").empty();
+            $("#NameRequested2").append(response.NameRequested);
+            $("#unavailable").show();
+            $("#unavailable2").hide();
+            $("#unavailable3").hide();
+            $("#available").hide();
+            $("#upper").hide();
+          } if (response.NameStatus == null) {
+            $("#unavailable3").show();
+            $("#unavailable").hide();
+            $("#unavailable2").hide();
+            $("#available").hide();
+            $("#upper").hide();
+          }
+        }
+      });
+    }
+  });
+  $("#search-btn").click(function () {
+    $.ajax({
+      type: 'POST',
+      url: 'check.php',
+      data: { name: $('input[name=name]').val() },
+      success: function (response) {
+        var response = jQuery.parseJSON(response);
+        console.log(response);
+        if (response.NameStatus == 'GREEN') {
+          $("#NameRequested").empty();
+          $("#NameRequested").append(response.NameRequested);
+          $("#unavailable").hide();
+          $("#unavailable2").hide();
+          $("#unavailable3").hide();
+          $("#available").show();
+          $("#upper").hide();
+          $("#continueBtn").show();
+          $("#searchBtn").hide();
+        }
+        if (response.NameStatus == 'AMBER') {
+          $("#MatchName").empty();
+          $("#NameRequested1").empty();
+          $("#NameRequested1").append(response.NameRequested);
+          if (response.MatchName == null) {
+            $("#MatchName").append('This company name is available for registration! However, please note, you will need to provide supporting evidence to use ');
+            $("#MatchName").append(response.SensitiveWords[0].Word);
+            $("#MatchName").append(' in the company name.');
+          } else {
+            $("#MatchName").append('This company name is available for registration! However, please note, you will need to obtain permission from ');
+            $("#MatchName").append(response.MatchName);
+            $("#MatchName").append(' in order to use it.');
+          }
+          $("#unavailable").hide();
+          $("#unavailable3").hide();
+          $("#unavailable2").show();
+          $("#available").hide();
+          $("#upper").hide();
+        } if (response.NameStatus == 'RED') {
+          $("#NameRequested2").empty();
+          $("#NameRequested2").append(response.NameRequested);
+          $("#unavailable").show();
+          $("#unavailable2").hide();
+          $("#unavailable3").hide();
+          $("#available").hide();
+          $("#upper").hide();
+        } if (response.NameStatus == null) {
+          $("#unavailable3").show();
+          $("#unavailable").hide();
+          $("#unavailable2").hide();
+          $("#available").hide();
+          $("#upper").hide();
+        }
+      }
+    });
+  });
+</script>
+<script src="./Js/app.js"></script>
+
+</html>

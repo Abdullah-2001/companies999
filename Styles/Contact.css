@@ -1,0 +1,140 @@
+.green-blue-bg-container {
+    padding-top: 300px;
+}
+
+.contact-bg {
+    background-image: url("../Assets/png/contact-bg.png");
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.contact-form {
+    padding: 22px;
+    width: 636px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 96px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.address-card {
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 96px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.phone-card, .email-card {
+    width: 313px;
+    height: 175px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 96px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+}
+
+.email-card {
+    margin-left: 10px;
+}
+
+.address-card,
+.phone-card,
+.email-card {
+    padding: 32px;
+}
+
+.address-card, .phone-card, .email-card {
+    display: flex;
+    align-items: flex-start;
+}
+
+.address-container, .phone-container, .email-container {
+    margin-left: 30px;
+}
+
+.address-container :nth-child(1),
+.phone-container :nth-child(1),
+.email-container :nth-child(1) {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.address-container :nth-child(2),
+.phone-container :nth-child(2),
+.phone-container :nth-child(3),
+.email-container :nth-child(2) {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.address-container p,
+.phone-container p,
+.email-container p {
+    margin: 0;
+}
+
+.enquiry-form {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.full-name,
+.email {
+    width: 589px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding-left: 17px;
+    margin: 16px 0;
+    outline: none;
+}
+
+.notes {
+    outline: none;
+    width: 589px;
+    height: 96px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding-left: 17px;
+    padding-top: 15px;
+    margin: 16px 0;
+}
+
+.full-name::placeholder,
+.email::placeholder,
+.notes::placeholder {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.submit-contact {
+    border: none;
+    width: 100%;
+    height: 43px;
+    background: #41B649;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
